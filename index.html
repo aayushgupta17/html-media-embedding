@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Music Preference Form</title>
+</head>
+
+<body>
+<p align="center"><b>MUSIC PREFERENCE FORM</b></p>
+
+<fieldset>
+<legend><b>USER DETAILS</b></legend>
+<form action="music_table.html">
+
+<p>
+<sup style="color:red">*</sup>
+NAME:
+<input type="text" name="name"
+placeholder="Enter your name"
+size="25" maxlength="30" required>
+<br><br>
+
+<sup style="color:red">*</sup>
+EMAIL:
+<input type="email" name="email"
+placeholder="Enter your email"
+size="25" required>
+<br><br>
+
+AGE:
+<input type="number" name="age"
+placeholder="Enter your age">
+<br><br>
+
+GENDER:
+<input type="radio" name="gender"
+value="male" checked>Male
+<input type="radio" name="gender"
+value="female">Female
+<br><br>
+
+FAVOURITE GENRE:
+<select name="genre">
+<option value="rap">RAP</option>
+<option value="pop">POP</option>
+<option value="bollywood">BOLLYWOOD</option>
+<option value="hiphop">HIP HOP</option>
+</select>
+<br><br>
+FAVOURITE ARTIST:
+<input type="checkbox" name="artist"
+value="krsna">KR$NA
+<input type="checkbox" name="artist"
+value="raftaar">RAFTAAR
+<input type="checkbox" name="artist"
+value="divine">DIVINE
+<br><br>
+
+RATING:
+<select name="rating">
+<option value="10">10/10</option>
+<option value="9">9/10</option>
+<option value="8">8/10</option>
+<option value="7">7/10</option>
+<option value="6">6/10</option>
+
+</select>
+<br><br>
+
+FEEDBACK:
+<br>
+
+<textarea name="feedback"
+rows="5" cols="40"
+placeholder="Enter your feedback"></textarea>
+<br><br>
+
+<input type="submit" value="SUBMIT">
+<input type="reset" value="CLEAR">
+</p>
+</form>
+</fieldset>
+</body>
+</html>
